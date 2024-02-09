@@ -14,14 +14,14 @@ while (p < 3) {
   const num = Math.floor(Math.random() * 10);
   console.log(`Question:${num}`);
   const answer = readlineSync.question('Your answer: ');
-  if ((num % 2) == 1 && answer == 'no') {
+  if ((num % 2) === 1 && answer === 'no') {
     console.log('Correct!');
-  } else if ((num % 2) == 0 && answer == 'yes') {
+  } else if ((num % 2) === 0 && answer === 'yes') {
     console.log('Correct!');
-  } else if ((num % 2) == 1 && answer == 'yes') {
+  } else if ((num % 2) === 1 && answer === 'yes') {
     console.log(`yes is wrong answer ;(. Correct answer was no. Let's try again, ${name}`);
     break;
-  } else if ((num % 2) == 0 && answer == 'no') {
+  } else if ((num % 2) === 0 && answer === 'no') {
     console.log(`no is wrong answer ;(. Correct answer was yes. Let's try again, ${name}`);
     break;
   } else {
@@ -29,5 +29,6 @@ while (p < 3) {
     break;
   }
 }
-if(p>2){
-console.log(`Congratulations,${name}`);}
+if (p > 2) {
+  console.log(`Congratulations,${name}`);
+}
