@@ -13,8 +13,6 @@ test:
 test-coverage:
 	npm test -- --coverage --coverageProvider=v8
 
-lint:
-	npx eslint .
 
 publish:				
 	npm publish --dry-run
@@ -23,3 +21,7 @@ publish:
 
 brain-games:
 	node /home/vasilii/js-starter-project-44/bin/brain-games.js
+lint:
+	npx eslint .
+lint-fix:
+	npx eslint --fix .
