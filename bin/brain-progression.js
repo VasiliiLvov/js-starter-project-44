@@ -13,7 +13,7 @@ while (p < 3) {
   const lenOfNum = 5 + Math.floor(Math.random() * 10);
   const arr = [Math.floor(Math.random() * 100)];
   const progress = 1 + Math.floor(Math.random() * 5);
-  for (let i = 0; i < lenOfNum; i++) {
+  for (let i = 0; i < lenOfNum; i += 1) {
     arr.push(arr[i] + progress);
   }
   const temp = Math.floor(Math.random() * arr.length);

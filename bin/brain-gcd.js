@@ -12,7 +12,7 @@ let game = 0;
 while (game < 3) {
   let num1 = Math.floor(1 + Math.random() * 100);
   let num2 = Math.floor(1 + Math.random() * 100);
-  console.log('Question:' + ` ${num1} ${num2}`);
+  console.log(`Question:${num1} ${num2}`);
   let nod = 0;
   if (num2 > num1) {
     const temp = num1;

@@ -12,7 +12,7 @@ let p = 0;
 while (p < 3) {
   const num = 2 + Math.floor(Math.random() * 100);
   let divMeter = 0;
-  for (let i = 2; i < num; i++) {
+  for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
       divMeter += 1;
     }

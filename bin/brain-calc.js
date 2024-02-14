@@ -29,7 +29,7 @@ while (p < 3) {
     b = calcA * calcB;
     d = '*';
   }
-  console.log('Question:'+calcA+''+d+''+calcB);
+  console.log(`Question:${calcA}${d}${calcB}`);
   const sum = readlineSync.question('Your answer: ');
   console.log(sum);
   if (Number(sum) === Number(b)) {
