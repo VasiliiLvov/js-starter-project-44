@@ -57,7 +57,7 @@ while (p < 3) {
   }
   console.log(`Question:${calcA}${d}${calcB}`);
   const sum = readlineSync.question('Your answer: ');
-  if (sum === b) {
+  if (Number(sum) === b) {
     console.log('Correct!');
   } else {
     console.log('Wrong!');
@@ -65,5 +65,92 @@ while (p < 3) {
   }
 }
 if (p > 2) {
+  console.log(`Congratulations,${name}`);
+}
+console.log('What number is missing in the progression?');
+ p = 0;
+while (p < 3) {
+  const lenOfNum = 5 + Math.floor(Math.random() * 10);
+  const arr = [Math.floor(Math.random() * 100)];
+  const progress = 1 + Math.floor(Math.random() * 5);
+  for (let i = 0; i < lenOfNum; i += 1) {
+    arr.push(arr[i] + progress);
+  }
+  const temp = Math.floor(Math.random() * arr.length);
+  const quest = arr[temp];
+  arr[temp] = '..';
+  console.log(`Question: ${arr}`);
+  const answer = readlineSync.question('Your answer: ');
+  if (Number(answer) === quest) {
+    console.log('Correct!');
+    p += 1;
+  } else {
+    console.log('Wrong!');
+    break;
+  }
+}
+if (p < 3) {
+  console.log(`Let's try again,${name}`);
+} else {
+  console.log(`Congratulations!${name}`);
+}
+console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
+p = 0;
+while (p < 3) {
+  const num = 2 + Math.floor(Math.random() * 100);
+  let divMeter = 0;
+  for (let i = 2; i < num; i += 1) {
+    if (num % i === 0) {
+      divMeter += 1;
+    }
+  }
+  console.log(`Question:${num}`);
+  const answer = readlineSync.question('Your answer: ');
+  if (answer === 'yes' && divMeter === 0) {
+    console.log('Correct!');
+    p += 1;
+  } else if (answer === 'no' && divMeter > 0) {
+    console.log('Correct!');
+    p += 1;
+  } else {
+    console.log('Wrong!');
+    break;
+  }
+}
+if (p < 3) {
+  console.log(`Try again,  ${name}`);
+} else {
+  console.log(`Congratulations,${name}`);
+}
+console.log('Find the greatest common divisor of given numbers.');
+let game = 0;
+while (game < 3) {
+  let num1 = Math.floor(1 + Math.random() * 100);
+  let num2 = Math.floor(1 + Math.random() * 100);
+  console.log(`Question:${num1} ${num2}`);
+  let nod = 0;
+  if (num2 > num1) {
+    const temp = num1;
+    num1 = num2;
+    num2 = temp;
+  }
+  for (let i = num2; i > 0; i -= 1) {
+    if (num1 % i === 0 && num2 % i === 0) {
+      nod = i;
+      break;
+    }
+  }
+  const gcd = readlineSync.question('Your answer: ');
+  if (Number(gcd) === nod) {
+    console.log('Correct!');
+    game += 1;
+  } else {
+    console.log('Wrong!');
+    break;
+  }
+}
+if (game < 3) {
+  console.log(`Try again,  ${name}`);
+} else {
   console.log(`Congratulations,${name}`);
 }
