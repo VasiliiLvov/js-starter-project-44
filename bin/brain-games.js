@@ -7,7 +7,6 @@ console.log('May I have your name?');
 const name = readlineSync.question('Your answer: ');
 
 console.log(`Hello,${name}`);
-console.log('brain-even');
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let p = 0;
 while (p < 3) {
