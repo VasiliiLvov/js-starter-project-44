@@ -13,7 +13,6 @@ while(p<3){
 let lenOfNum = 5+ Math.floor( Math.random() * 10);
 let arr =[Math.floor(Math.random() * 100)];
 let progress = 1+ Math.floor(Math.random() * 5)
-console.log(progress);
 for(let i=0; i < lenOfNum;i++){
     arr.push(arr[i]+progress);
 }
