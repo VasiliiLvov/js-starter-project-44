@@ -1,12 +1,7 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-
-console.log('Welcome to the Brain Games!');
-console.log('May I have your name?');
-
-const name = readlineSync.question('Your answer: ');
-
-console.log(`Hello,${name}`);
+import printhello from '../src/cli.js';
+printhello();
 console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 let p = 0;
 while (p < 3) {

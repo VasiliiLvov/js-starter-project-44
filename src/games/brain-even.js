@@ -1,18 +1,13 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-
-console.log('Welcome to the Brain Games!');
-console.log('May I have your name?');
-
-const name = readlineSync.question('Your answer: ');
-
-console.log(`Hello,${name}`);
+import printhello from '../src/cli.js';
+printhello();
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let p = 0;
 while (p < 3) {
   p += 1;
   const num = Math.floor(Math.random() * 10);
-  console.log(`Question:${num}`);
+  console.log(`Question: ${num}`);
   const answer = readlineSync.question('Your answer: ');
   if ((num % 2) === 1 && answer === 'no') {
     console.log('Correct!');
