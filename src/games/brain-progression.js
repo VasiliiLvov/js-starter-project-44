@@ -22,12 +22,12 @@ while (p < 3) {
     console.log('Correct!');
     p += 1;
   } else {
-    console.log('Wrong!');
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${quest}'.`);
     break;
   }
 }
 if (p < 3) {
-  console.log(`Let's try again,${name}`);
+  console.log(`Let's try again, ${names}`);
 } else {
-  console.log(`Congratulations!${name}`);
+  console.log(`Congratulations, ${names}!`);
 }

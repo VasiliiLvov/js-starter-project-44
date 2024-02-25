@@ -22,13 +22,18 @@ while (p < 3) {
   } else if (answer === 'no' && divMeter > 0) {
     console.log('Correct!');
     p += 1;
-  } else {
-    console.log('Wrong!');
+  } else if (answer === 'yes' && divMeter > 0) {
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was 'no'.`);
+    console.log(`Let's try again, ${names}!`);
+    break;
+  } else if (answer === 'no' && divMeter === 0) {
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was 'yes'.`);
+    console.log(`Let's try again, ${names}!`);
     break;
   }
 }
 if (p < 3) {
-  console.log(`Try again,  ${name}`);
+  console.log(`Try again,  ${names}`);
 } else {
-  console.log(`Congratulations,${name}`);
+  console.log(`Congratulations, ${names}!`);
 }
