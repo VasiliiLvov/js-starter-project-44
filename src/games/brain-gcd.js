@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import printhello from '../src/cli.js';
-printhello();
+console.log('Welcome to the Brain Games!');
+console.log('May I have your name? ');
+var names = readlineSync.question('Your answer: ');
+console.log(`Hello, ${names}`);
 console.log('Find the greatest common divisor of given numbers.');
 let game = 0;
 while (game < 3) {
@@ -30,7 +32,7 @@ while (game < 3) {
   }
 }
 if (game < 3) {
-  console.log(`Try again,  ${name}`);
+  console.log(`Try again,  ${names}`);
 } else {
-  console.log(`Congratulations,${name}`);
+  console.log(`Congratulations,${names}`);
 }

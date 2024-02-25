@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import printhello from '../src/cli.js';
-printhello();
+console.log('Welcome to the Brain Games!');
+console.log('May I have your name? ');
+var names = readlineSync.question('Your answer: ');
+console.log(`Hello, ${names}`);
 let p = 0;
 while (p < 3) {
   p += 1;
@@ -29,10 +31,11 @@ while (p < 3) {
   if (Number(sum) === Number(b)) {
     console.log('Correct!');
   } else {
-    console.log('Wrong!');
+    console.log(`'${sum}' is wrong answer ;(. Correct answer was '${b}'.`);
+    console.log(`Let's try again, ${names}!`);
     break;
   }
 }
 if (p > 2) {
-  console.log(`Congratulations,${name}`);
+  console.log(`Congratulations, ${names}!`);
 }
