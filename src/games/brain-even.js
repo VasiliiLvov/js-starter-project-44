@@ -24,5 +24,5 @@ while (p < 3) {
   } 
 }
 if (p > 2) {
-  console.log(`Congratulations,${names}!`);
+  console.log(`Congratulations, ${names}!`);
 }
