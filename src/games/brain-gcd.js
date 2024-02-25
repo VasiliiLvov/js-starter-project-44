@@ -34,5 +34,5 @@ while (game < 3) {
 if (game < 3) {
   console.log(`Try again,  ${names}`);
 } else {
-  console.log(`Congratulations,${names}`);
+  console.log(`Congratulations,${names}!`);
 }
