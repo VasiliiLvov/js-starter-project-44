@@ -1,7 +1,9 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import printhello from 'cli.js';
+import printhello from '/home/vasilii/js-starter-project-44/src/cli.js';
 printhello();
+var names = readlineSync.question('Your answer: ');
+console.log(`Hello, ${names}`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let p = 0;
 while (p < 3) {
@@ -14,13 +16,13 @@ while (p < 3) {
   } else if ((num % 2) === 0 && answer === 'yes') {
     console.log('Correct!');
   } else if ((num % 2) === 1 && answer === 'yes') {
-    console.log(`yes is wrong answer ;(. Correct answer was no. Let's try again, ${name}`);
+    console.log(`yes is wrong answer ;(. Correct answer was no. Let's try again, ${names}`);
     break;
   } else if ((num % 2) === 0 && answer === 'no') {
-    console.log(`no is wrong answer ;(. Correct answer was yes. Let's try again, ${name}`);
+    console.log(`no is wrong answer ;(. Correct answer was yes. Let's try again, ${names}`);
     break;
   } 
 }
 if (p > 2) {
-  console.log(`Congratulations,${name}`);
+  console.log(`Congratulations,${names}`);
 }
