@@ -16,10 +16,12 @@ while (p < 3) {
   } else if ((num % 2) === 0 && answer === 'yes') {
     console.log('Correct!');
   } else if ((num % 2) === 1 && answer === 'yes') {
-    console.log(`yes is wrong answer ;(. Correct answer was no. Let's try again, ${names}`);
+    console.log(`yes is wrong answer ;(. Correct answer was no.`);
+    console.log(`Let's try again, ${names}!`)
     break;
   } else if ((num % 2) === 0 && answer === 'no') {
-    console.log(`no is wrong answer ;(. Correct answer was yes. Let's try again, ${names}`);
+    console.log(`yes is wrong answer ;(. Correct answer was no.`);
+    console.log(`Let's try again, ${names}!`)
     break;
   } 
 }
