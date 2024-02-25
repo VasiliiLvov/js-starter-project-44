@@ -4,6 +4,7 @@ console.log('Welcome to the Brain Games!');
 console.log('May I have your name? ');
 var names = readlineSync.question('Your answer: ');
 console.log(`Hello, ${names}`);
+console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let p = 0;
 while (p < 3) {
   p += 1;
