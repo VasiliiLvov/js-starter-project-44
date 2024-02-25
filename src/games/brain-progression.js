@@ -27,7 +27,7 @@ while (p < 3) {
   }
 }
 if (p < 3) {
-  console.log(`Let's try again, ${names}`);
+  console.log(`Let's try again, ${names}!`);
 } else {
   console.log(`Congratulations, ${names}!`);
 }

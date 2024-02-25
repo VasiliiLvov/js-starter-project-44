@@ -32,8 +32,6 @@ while (p < 3) {
     break;
   }
 }
-if (p < 3) {
-  console.log(`Try again,  ${names}`);
-} else {
+if (p >= 3) {
   console.log(`Congratulations, ${names}!`);
 }
