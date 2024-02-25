@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
-import printhello from '../src/cli.js';
+import printhello from 'cli.js';
 printhello();
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let p = 0;
