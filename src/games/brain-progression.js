@@ -16,7 +16,7 @@ while (p < 3) {
   const temp = Math.floor(Math.random() * arr.length);
   const quest = arr[temp];
   arr[temp] = '..';
-  console.log(`Question: ${arr}`);
+  console.log(`Question: ${arr.join(' ')}`);
   const answer = readlineSync.question('Your answer: ');
   if (Number(answer) === quest) {
     console.log('Correct!');
