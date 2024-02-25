@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
+
 console.log('Welcome to the Brain Games!');
 console.log('May I have your name? ');
-var names = readlineSync.question('Your answer: ');
+const names = readlineSync.question('Your answer: ');
 console.log(`Hello, ${names}`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let p = 0;
@@ -16,14 +17,14 @@ while (p < 3) {
   } else if ((num % 2) === 0 && answer === 'yes') {
     console.log('Correct!');
   } else if ((num % 2) === 1 && answer === 'yes') {
-    console.log(`yes is wrong answer ;(. Correct answer was no.`);
-    console.log(`Let's try again, ${names}!`)
+    console.log('yes is wrong answer ;(. Correct answer was no.');
+    console.log(`Let's try again, ${names}!`);
     break;
   } else if ((num % 2) === 0 && answer === 'no') {
-    console.log(`yes is wrong answer ;(. Correct answer was no.`);
-    console.log(`Let's try again, ${names}!`)
+    console.log('yes is wrong answer ;(. Correct answer was no.');
+    console.log(`Let's try again, ${names}!`);
     break;
-  } 
+  }
 }
 if (p > 2) {
   console.log(`Congratulations, ${names}!`);

@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
+
 console.log('Welcome to the Brain Games!');
 console.log('May I have your name? ');
-var names = readlineSync.question('Your answer: ');
+const names = readlineSync.question('Your answer: ');
 console.log(`Hello, ${names}`);
 console.log('Find the greatest common divisor of given numbers.');
 let game = 0;
