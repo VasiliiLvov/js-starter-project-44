@@ -14,7 +14,7 @@ while (p < 3) {
       divMeter += 1;
     }
   }
-  console.log(`Question:${num}`);
+  console.log(`Question: ${num}`);
   const answer = readlineSync.question('Your answer: ');
   if (answer === 'yes' && divMeter === 0) {
     console.log('Correct!');
