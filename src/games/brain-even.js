@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
+import printhello from '../src/cli.js';
+printhello();
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 let p = 0;
 while (p < 3) {
@@ -17,10 +19,7 @@ while (p < 3) {
   } else if ((num % 2) === 0 && answer === 'no') {
     console.log(`no is wrong answer ;(. Correct answer was yes. Let's try again, ${name}`);
     break;
-  } else {
-    console.log("use only 'yes' and 'no'.Try again");
-    break;
-  }
+  } 
 }
 if (p > 2) {
   console.log(`Congratulations,${name}`);
