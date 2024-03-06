@@ -28,7 +28,7 @@
 `brain-progression`// Запуск игры на поиск недостоющей части прогрессии 
 
 
-![alt text]([http://url/to/img.png](https://imgur.com/a/LM1nWuj))
+![alt text](https://imgur.com/a/LM1nWuj)
 Записи примеров игр:
 
 https://asciinema.org/a/mYkqIZe1lo92SuYo5i5xNBUhT // brain-calc
