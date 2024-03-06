@@ -2,6 +2,7 @@
 [![Actions Status](https://github.com/VasiliiLvov/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/VasiliiLvov/js-starter-project-44/actions)
 
 Brain-games is compilation of mathematical games.
+
 commands:
 
 brain-games // Greeting the User
