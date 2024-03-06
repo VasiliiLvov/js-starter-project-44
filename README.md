@@ -3,6 +3,7 @@
 
 Brain-games is compilation of mathematical games.
 commands:
+
 brain-games // Greeting the User
 
 brain-calc // 'What is the result of the expression?'
