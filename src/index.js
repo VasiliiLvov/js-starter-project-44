@@ -26,6 +26,8 @@ const startBrainGames = (question, calculator) => {
     }
     if (p > 2) {
       console.log(`Congratulations, ${names}!`);
+    } else {
+      console.log(`Let's try again, ${names}!`)
     }
   }
 };
