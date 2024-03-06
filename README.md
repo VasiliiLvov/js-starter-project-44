@@ -1,21 +1,25 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/VasiliiLvov/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/VasiliiLvov/js-starter-project-44/actions)
 
-Brain-games is compilation of mathematical games.
+Brain Games
+A pack of educational games, in which you'll need to tell is the number even, continue the progression or guess the biggest divider of two numbers. Three right answers in a row will guarantee you a win. To install the game follow the instructions below.
 
-commands:
+Requirements
+Latest version of Node.js
 
-brain-games // Greeting the User
+Installation
+To install the required dependencies, type following command in terminal.
 
-brain-calc // 'What is the result of the expression?'
-
-brain-gcd //'Find the greatest common divisor of given numbers.'
-
-brain-prime //'Answer "yes" if given number is prime. Otherwise answer "no".'
-
-brain-even //'Answer "yes" if the number is even, otherwise answer "no".';
-
-brain-progression //'What number is missing in the progression?'
+make install
+Launch the game
+Enter main directory
+Type following commands to start:
+brain-games - enters greetings mode
+brain-even - starts the game, in which you need to tell is the number even
+brain-calc - starts the game, in which you need to do math operations with two random numbers
+brain-gcd - starts the game, in which you need to find the greatest common divider of two random numbers
+brain-progression - starts the game, in which you need to complete the progression with correct number
+brain-prime - starts the game, in which you need to tell is the number prime
 
 https://asciinema.org/a/mYkqIZe1lo92SuYo5i5xNBUhT // brain-calc
 https://asciinema.org/a/94h9XLAeuh44MD3K4KFVI3YTM // brain-prime
