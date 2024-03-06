@@ -1,7 +1,7 @@
 import startBrainGames from '../index.js';
 
 const question = 'What number is missing in the progression?';
-const calculator = () => {
+const generateTask = () => {
   const lenOfNum = 5 + Math.floor(Math.random() * 10);
   const arr = [Math.floor(Math.random() * 100)];
   const progress = 1 + Math.floor(Math.random() * 5);
@@ -15,7 +15,7 @@ const calculator = () => {
   return [arr.join(' '), Number(Rightanswer)];
 };
 const runProgressionGame = () => {
-  startBrainGames(question, calculator);
+  startBrainGames(question, generateTask);
 };
 
 export default runProgressionGame;

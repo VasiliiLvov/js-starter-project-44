@@ -1,7 +1,7 @@
 import startBrainGames from '../index.js';
 
 const question = 'Find the greatest common divisor of given numbers.';
-const calculator = () => {
+const generateTask = () => {
   let num1 = Math.floor(1 + Math.random() * 100);
   let num2 = Math.floor(1 + Math.random() * 100);
   let nod = 0;
@@ -19,7 +19,7 @@ const calculator = () => {
   return [`${num1} ${num2}`, nod];
 };
 const runGCDGame = () => {
-  startBrainGames(question, calculator);
+  startBrainGames(question, generateTask);
 };
 
 export default runGCDGame;

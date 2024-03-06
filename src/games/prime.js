@@ -1,7 +1,7 @@
 import startBrainGames from '../index.js';
 
 const question = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const calculator = () => {
+const generateTask = () => {
   const num = 2 + Math.floor(Math.random() * 100);
   let divMeter = 0;
   for (let i = 2; i < num; i += 1) {
@@ -19,7 +19,7 @@ const calculator = () => {
 };
 
 const runPrimeGame = () => {
-  startBrainGames(question, calculator);
+  startBrainGames(question, generateTask);
 };
 
 export default runPrimeGame;

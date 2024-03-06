@@ -1,7 +1,7 @@
 import startBrainGames from '../index.js';
 
 const question = 'What is the result of the expression?';
-const calculator = () => {
+const generateTask = () => {
   const calcA = Math.floor(Math.random() * 100);
   const calcB = Math.floor(Math.random() * 100);
   const calcC = Math.floor(Math.random() * 3);
@@ -23,7 +23,7 @@ const calculator = () => {
   return [`${calcA} ${d} ${calcB}`, b];
 };
 const runCalcGame = () => {
-  startBrainGames(question, calculator);
+  startBrainGames(question, generateTask);
 };
 
 export default runCalcGame;
