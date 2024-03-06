@@ -13,21 +13,35 @@
 make install
 
 Перейдите в основную папку
+
 Напишите следующие команды,для старты нужной вам игры:
+
 brain-games // Запуск приветсвия
+
 brain-even // Запуск игры на четность
+
 brain-calc // Запуск игры на расчет
+
 brain-gcd // Запуск игры на нахождение наибольшего общего делителя
+
 brain-prime // Запуск игры на определение простого числа
+
 brain-progression // Запуск игры на поиск недостоющей части прогрессии 
 
 
 Записи примеров игр:
 
 https://asciinema.org/a/mYkqIZe1lo92SuYo5i5xNBUhT // brain-calc
+
 https://asciinema.org/a/94h9XLAeuh44MD3K4KFVI3YTM // brain-prime
+
 https://asciinema.org/a/scc0RoRL8IuGX6OsSeOHM40Bt // brain-even
+
 https://asciinema.org/a/ll9i1TaKEqORziZCKWsmriEa // brain-progression
+
 https://asciinema.org/a/aHbZgrMc5p6pQKy8FLQ3NWhJZ // brain-gcd
+
 https://asciinema.org/a/L76rXw0owZn5xM3TyKjT5doQ5 // brain-greetings
+
 https://asciinema.org/a/zoolVo3zC6iYXzA1PxNYYJ1gu // brain-games full
+
