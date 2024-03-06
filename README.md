@@ -1,16 +1,16 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/VasiliiLvov/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/VasiliiLvov/js-starter-project-44/actions)
 
-Brain Games
+###Brain Games
 A pack of educational games, in which you'll need to tell is the number even, continue the progression or guess the biggest divider of two numbers. Three right answers in a row will guarantee you a win. To install the game follow the instructions below.
 
-Requirements
+##Requirements
 Latest version of Node.js
 
-Installation
+##Installation
 To install the required dependencies, type following command in terminal.
 
-make install
+#make install
 Launch the game
 Enter main directory
 Type following commands to start:
