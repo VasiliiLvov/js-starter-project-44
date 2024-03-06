@@ -16,19 +16,19 @@ const startBrainGames = (question, calculator) => {
         console.log('Correct!');
       } else {
         console.log(`'${answer}' is wrong answer ;(. Correct answer was '${Rightanswer}'.`);
-        console.log(`Let's try again, ${names}!`)
+        console.log(`Let's try again, ${names}!`);
         break;
       }
     } else if (Number(answer) === Rightanswer) {
       console.log('Correct!');
     } else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${Rightanswer}'.`);
-      console.log(`Let's try again, ${names}!`)
+      console.log(`Let's try again, ${names}!`);
       break;
     }
     if (p > 2) {
       console.log(`Congratulations, ${names}!`);
-    } 
+    }
   }
 };
 export default startBrainGames;
