@@ -28,7 +28,6 @@
 `brain-progression`// Запуск игры на поиск недостоющей части прогрессии 
 
 
-![alt text](https://imgur.com/a/LM1nWuj)
 Записи примеров игр:
 
 https://asciinema.org/a/mYkqIZe1lo92SuYo5i5xNBUhT // brain-calc
@@ -45,4 +44,3 @@ https://asciinema.org/a/L76rXw0owZn5xM3TyKjT5doQ5 // brain-greetings
 
 https://asciinema.org/a/zoolVo3zC6iYXzA1PxNYYJ1gu // brain-games full
 
-<script async id="asciicast-569727" src="https://asciinema.org/a/569727.js"></script>
