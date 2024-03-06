@@ -2,24 +2,27 @@
 [![Actions Status](https://github.com/VasiliiLvov/js-starter-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/VasiliiLvov/js-starter-project-44/actions)
 
 ### Brain Games
-A pack of educational games, in which you'll need to tell is the number even, continue the progression or guess the biggest divider of two numbers. Three right answers in a row will guarantee you a win. To install the game follow the instructions below.
+Несколько математических игр, в которых вам нужно ответить на такие вопросы как: " Четное ли число","Найти наибольший делитель" и т.д. .Три правильных ответа необходимо для выигрыша . Чтобы начать игру, следуйте инструкциям ниже.
 
-## Requirements
-Latest version of Node.js
+## Требования
+ Node.js
 
-## Installation
-To install the required dependencies, type following command in terminal.
+## Установка
+Запишите комманду в терминал
 
-# make install
-Launch the game
-Enter main directory
-Type following commands to start:
-brain-games - enters greetings mode
-brain-even - starts the game, in which you need to tell is the number even
-brain-calc - starts the game, in which you need to do math operations with two random numbers
-brain-gcd - starts the game, in which you need to find the greatest common divider of two random numbers
-brain-progression - starts the game, in which you need to complete the progression with correct number
-brain-prime - starts the game, in which you need to tell is the number prime
+make install
+
+Перейдите в основную папку
+Напишите следующие команды,для старты нужной вам игры:
+brain-games // Запуск приветсвия
+brain-even // Запуск игры на четность
+brain-calc // Запуск игры на расчет
+brain-gcd // Запуск игры на нахождение наибольшего общего делителя
+brain-prime // Запуск игры на определение простого числа
+brain-progression // Запуск игры на поиск недостоющей части прогрессии 
+
+
+Записи примеров игр:
 
 https://asciinema.org/a/mYkqIZe1lo92SuYo5i5xNBUhT // brain-calc
 https://asciinema.org/a/94h9XLAeuh44MD3K4KFVI3YTM // brain-prime
