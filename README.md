@@ -44,4 +44,6 @@ https://asciinema.org/a/L76rXw0owZn5xM3TyKjT5doQ5 // brain-greetings
 
 https://asciinema.org/a/zoolVo3zC6iYXzA1PxNYYJ1gu // brain-games full
 
+agg https://asciinema.org/a/zoolVo3zC6iYXzA1PxNYYJ1gu 645604.gif
+
 
